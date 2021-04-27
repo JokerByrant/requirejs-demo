@@ -41,7 +41,7 @@ require.config({
 	//注入对应依赖，当依赖都请求成功后执行对应的回调函数
 require(["jquery", "a", "c", "d", "e"], function($, a, c, d, e) {
 	console.log($('span'));
-	$('span').css('color', '#673AB7');
+	$('span').css('color', 'red');
 	console.log(a.f3());
 	console.log(c);
 	console.log(d);
